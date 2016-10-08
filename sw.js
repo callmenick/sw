@@ -1,8 +1,8 @@
 var CACHE_NAME = 'sw-v1';
 var urlsToCache = [
-  '/',
-  '/style.css',
-  '/app.js'
+  './',
+  './style.css',
+  './app.js'
 ];
 
 self.addEventListener('install', function(e) {
